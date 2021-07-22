@@ -6,6 +6,12 @@
     justify-content: space-between;
 }
 
+.logo
+{
+    height: 50%;
+    margin-top: 25px;
+}
+
 .menu
 {
     display: flex;
