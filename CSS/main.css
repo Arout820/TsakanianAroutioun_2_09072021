@@ -1,0 +1,16 @@
+/* -------- MAIN SITE CONTENT -------- */
+
+/* Title page */
+
+.titlepage
+{
+    font-family: "Ralewaybold";
+    font-size: 1.2em;
+}
+
+.titledescription
+{
+    margin-top: -5px;
+    font-size: 0.9em;
+    font-family: "Raleway";
+}
