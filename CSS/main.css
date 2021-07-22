@@ -111,3 +111,29 @@
     font-family: "Ralewaybold";
     padding: 0px 15px 0px 8px;
 }
+
+/* Information */
+
+.info
+{
+    display: flex;
+}
+
+.icninfo
+{
+    align-self: center;
+    margin-right: 5px;
+    color: #0065FC;
+    border: 1px solid #DEEBFF;
+    border-radius: 20px;
+    font-size: 0.7em;
+    padding: 2px 5px 2px 5px;
+    margin-bottom: 2px;
+}
+
+.txtinfo
+{
+    align-self: center;
+    font-size: 0.8em;
+    font-family: "Raleway300";
+}
