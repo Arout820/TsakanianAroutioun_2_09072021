@@ -14,3 +14,40 @@
     font-size: 0.9em;
     font-family: "Raleway";
 }
+
+/* Button destination */
+
+.btndestination
+{
+    display: flex;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.icnsearch
+{
+    background-color: #F2F2F2;
+    padding: 14px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.input
+{
+    border: 1px solid#F2F2F2;
+    border-right: none;
+    font-family: "Ralewaybold";
+    outline: none;
+    padding: 0px 0px 0px 15px;
+}
+
+.btnsearch
+{
+    font-family: "Raleway600";
+    background-color: #0065FC;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    border-radius: 0px 15px 15px 0px;
+    border: 1px solid #0065FC;
+    cursor: pointer;
+}
