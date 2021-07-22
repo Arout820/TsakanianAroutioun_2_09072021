@@ -1,0 +1,56 @@
+/* -------- CSS HEADER -------- */
+
+.headerdesktop
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu
+{
+    display: flex;
+}
+
+.listmenu
+{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.listelement
+{
+    width: 9.375rem;
+    margin-top: -16px;
+    height: 46px;  
+    padding: 40px 0px 0px 0px;
+}
+
+.listelement:hover
+{   
+    border-top: 2px solid #0065FC; 
+}
+
+.linkmenu1
+{
+    padding-left: 19px;
+}
+
+.linkmenu2
+{
+    padding-left: 42px;
+}
+
+.linkmenu:hover
+{
+    color: #0065FC;
+    
+}
+
+.btnregistration
+{
+    font-family: "Ralewaybold";
+    color: #0065FC;
+    padding-left: 15px;
+    padding-top: 40px;
+}
