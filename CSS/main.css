@@ -51,3 +51,63 @@
     border: 1px solid #0065FC;
     cursor: pointer;
 }
+
+/* Filtres */
+
+.filtres
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.titlefiltres
+{
+    font-family: "Ralewaybold";
+    font-size: 1em;
+    margin-right: 30px;
+}
+
+.filtreselement
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn
+{
+    display: flex;
+    align-self: center;
+    border: 1px solid #cecece;
+    border-radius: 15px 30px 30px 15px;
+    background-color: white;
+    margin-right: 30px;
+    margin-top: 5px;
+    padding: 0px 0px 0px 0px;
+    cursor: pointer;
+    height: 35px;
+}
+
+.btn:hover
+{
+    background-color: #DEEBFF;
+    transition: 0.5s;
+    border: 1px solid #DEEBFF;
+}
+
+.icnbtn
+{
+    padding: 11px;
+    margin-left: -8px;
+    border-radius: 30px;
+    align-self: center;
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+
+.btntext
+{
+    align-self: center;
+    font-family: "Ralewaybold";
+    padding: 0px 15px 0px 8px;
+}
