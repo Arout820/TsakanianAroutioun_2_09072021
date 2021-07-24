@@ -251,3 +251,55 @@
     border-radius: 15px 15px 15px 15px ;
     padding: 20px;
 }
+
+.cardhotelaside
+{
+    display: flex;
+    border-radius: 15px 15px 15px 15px;
+    background: white;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px rgb(197, 196, 196);
+    height: 115px;
+    width: 360px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.cardhotelaside:hover
+{
+    transform: scale(1.05);
+}
+
+.imgcontentaside
+{ 
+    object-fit: cover;
+    border-radius: 15px 0px 0px 15px;
+    width: 120px;
+}
+
+.containerimgtxtaside
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: "Ralewaybold";
+    margin-left: 5px;
+    font-size: 60%;
+}
+
+.containerimgtxtaside h2
+{
+    font-size: 1.3em;
+}
+
+.containerimgtxtaside p
+{
+    font-size: 1.2em;
+    margin-top: -5.48px;
+}
+
+.containerstarsicnaside
+{   
+    margin-top: -5.48px;
+    padding-top: 42px;
+}
