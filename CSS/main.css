@@ -198,7 +198,6 @@
 
 .containerimgtxt
 {
-    font-family: "Ralewaybold";
     margin-left: 5px;
     font-size: 60%;
 }
@@ -301,7 +300,6 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    font-family: "Ralewaybold";
     margin-left: 5px;
     font-size: 60%;
 }
@@ -321,4 +319,29 @@
 {   
     margin-top: -5.48px;
     padding-top: 42px;
+}
+
+/* DIVISION ACTIVITY */
+
+.activity
+{
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.titlesection
+{
+    font-family: "Ralewaybold";
+    font-size: 1.2em;
+    width: 100%;
+}
+
+.imgactivity
+{
+    width: 50%;
+}
+
+.titleactivity
+{
+
 }
