@@ -325,23 +325,91 @@
 
 .activity
 {
+    display: flex;
     flex-direction: column;
     margin-top: 15px;
+}
+
+.containercardgrid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+    height: 500px;
+}
+
+.gridchild1
+{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+}
+
+.gridchild2
+{
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.gridchild3
+{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.gridchild4
+{
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+}
+
+.gridchild5
+{
+    grid-column-start: 4;
+    grid-row-start: 1;
+}
+
+.gridchild6
+{
+    grid-column-start: 4;
+    grid-row-start: 2;
 }
 
 .titlesection
 {
     font-family: "Ralewaybold";
     font-size: 1.2em;
-    width: 100%;
+}
+
+.cardactivity
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgb(197, 196, 196);
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.cardactivity:hover
+{
+    transform: scale(1.05);
 }
 
 .imgactivity
 {
-    width: 50%;
+    object-fit: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
 }
 
 .titleactivity
 {
-
+    font-size: 0.8em;
+    margin-left: 10px;
+    background-color: white;
 }
