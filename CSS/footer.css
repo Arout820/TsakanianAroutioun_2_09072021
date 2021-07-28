@@ -1,1 +1,53 @@
 /* --------FOOTER-------- */
+
+.footer
+{
+    display: grid;
+    background-color: #F2F2F2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 45px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.containerfooter1
+{
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 1;
+    margin-left: 50px;
+}
+
+.containerfooter2
+{
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 2;
+}
+
+.containerfooter3
+{
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 3;
+    
+}
+
+.titlefooter
+{
+    font-family: "Ralewaybold";
+    margin-bottom: 20px;
+    font-size: 0.8em;
+}
+
+.elementfooter
+{
+    font-family: "Raleway";
+    margin-bottom: 10px;
+    font-size: 0.8em;
+}
+
+.elementfooter:hover
+{
+    text-decoration: underline;
+}

@@ -1,15 +1,29 @@
 /* -------- CSS ALL WEBSITE -------- */
 
-body
+*
+{
+    font-family: "Raleway";
+}
+
+header
 {
     width: 80%;
     margin: auto;
 }
 
-*
+main
 {
-    font-family: "Raleway";
+    width: 80%;
+    margin: auto;
 }
+
+footer
+{
+    width: 83%;
+    margin: auto;
+    margin-bottom: -20px;   
+}
+
 
 a
 {
