@@ -157,6 +157,7 @@
     background-color: #F2F2F2;
     border-radius: 15px 15px 15px 15px ;
     padding: 20px;
+    padding-bottom: 30px;
     margin-right: 30px;
 }
 
@@ -175,13 +176,13 @@
     flex-direction: column;
     margin-right: 5px;
     margin-left: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     border-radius: 15px 15px 15px 15px;
     background: white;
     border: 5px solid white;
     box-shadow: 0px 0px 10px rgb(197, 196, 196);
-    width: 220px;
-    height: 170px;
+    width: 330px;
+    height: 255px;
 }
 
 .cardhotel:hover
@@ -193,7 +194,7 @@
 { 
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
-    height: 105px;
+    height: 190px;
 }
 
 .containerimgtxt
@@ -277,8 +278,8 @@
     background: white;
     border: 5px solid white;
     box-shadow: 0px 0px 10px rgb(197, 196, 196);
-    height: 115px;
-    width: 360px;
+    height: 172.5px;
+    width: 500px;
     margin: auto;
     margin-bottom: 15px;
 }
@@ -292,7 +293,7 @@
 { 
     object-fit: cover;
     border-radius: 15px 0px 0px 15px;
-    width: 120px;
+    width: 240px;
 }
 
 .containerimgtxtaside
@@ -302,6 +303,7 @@
     justify-content: flex-start;
     margin-left: 5px;
     font-size: 60%;
+    padding-left: 10px;
 }
 
 .containerimgtxtaside h2
@@ -318,7 +320,7 @@
 .containerstarsicnaside
 {   
     margin-top: -5.48px;
-    padding-top: 42px;
+    padding-top: 100px;
 }
 
 /* DIVISION ACTIVITY */
@@ -333,8 +335,8 @@
 .containercardgrid
 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 30px;
     height: 450px;
@@ -343,30 +345,27 @@
 .gridchild1
 {
     grid-column-start: 1;
-    grid-row-start: 1;
-    grid-row-end: span 2;
-    
+    grid-row: 1 / span 2;
 }
 
 .gridchild2
 {
     grid-column-start: 2;
-    grid-row-start: 1;
+    grid-row: 1 ;
     margin-bottom: -30px;
 }
 
 .gridchild3
 {
     grid-column-start: 2;
-    grid-row-start: 2;
+    grid-row: 2 ;
     margin-top: 30px;
 }
 
 .gridchild4
 {
     grid-column-start: 3;
-    grid-row-start: 1;
-    grid-row-end: span 2;
+    grid-row: 1 / span 2;
 }
 
 .gridchild5
@@ -407,11 +406,12 @@
     background-position: center;
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 
 .titleactivity
 {
-    font-size: 0.8em;
+    font-size: 0.9em;
     margin-left: 10px;
     background-color: white;
 }
