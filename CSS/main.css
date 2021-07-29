@@ -5,13 +5,13 @@
 .titlepage
 {
     font-family: "Ralewaybold";
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 .titledescription
 {
     margin-top: -5px;
-    font-size: 0.9em;
+    font-size: 1.1em;
     font-family: "Raleway";
 }
 
@@ -39,6 +39,8 @@
     font-family: "Ralewaybold";
     outline: none;
     padding: 0px 0px 0px 15px;
+    margin-right: -50px;
+    font-size: 1.2em;
 }
 
 .btnsearch
@@ -50,6 +52,7 @@
     border-radius: 0px 15px 15px 0px;
     border: 1px solid #0065FC;
     cursor: pointer;
+    font-size: 1.2em;
 }
 
 /* Filtres */
@@ -64,7 +67,7 @@
 .titlefiltres
 {
     font-family: "Ralewaybold";
-    font-size: 1em;
+    font-size: 1.2em;
     margin-right: 30px;
 }
 
@@ -110,6 +113,7 @@
     align-self: center;
     font-family: "Ralewaybold";
     padding: 0px 15px 0px 8px;
+    font-size: 1.2em;
 }
 
 /* Information */
@@ -126,15 +130,15 @@
     color: #0065FC;
     border: 1px solid #DEEBFF;
     border-radius: 20px;
-    font-size: 0.7em;
-    padding: 2px 5px 2px 5px;
+    font-size: 1em;
+    padding: 3px 8px 3px 8px;
     margin-bottom: 2px;
 }
 
 .txtinfo
 {
     align-self: center;
-    font-size: 0.8em;
+    font-size: 1.1em;
     font-family: "Raleway300";
 }
 
@@ -164,7 +168,7 @@
 .titleaccomodations
 {
     font-family: "Ralewaybold";
-    font-size: 1.2em;
+    font-size: 1.4em;
     width: 100%;
     margin-right: 5px;
     margin-left: 5px;
@@ -194,7 +198,7 @@
 { 
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
-    height: 190px;
+    height: 155px;
 }
 
 .containerimgtxt
@@ -205,12 +209,12 @@
 
 .containerimgtxt h2
 {
-    font-size: 1.3em;
+    font-size: 2em;
 }
 
 .containerimgtxt p
 {
-    font-size: 1.2em;
+    font-size: 1.9em;
     margin-top: -5.48px;
 }
 
@@ -232,7 +236,7 @@
 .linkmore
 {
     font-family: "Ralewaybold";
-    font-size: 1.2em;
+    font-size: 1.4em;
     width: 100%;
     text-decoration: none;
     color: black;
@@ -260,7 +264,7 @@
 .titleaccomodationsaside
 {
     font-family: "Ralewaybold";
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin-right: 5px;
     margin-left: 5px;
     width: 90%;
@@ -269,6 +273,7 @@
 .fa-chart-line
 {
     margin: auto;
+    font-size: 1.7em;
 }
 
 .cardhotelaside
@@ -308,19 +313,25 @@
 
 .containerimgtxtaside h2
 {
-    font-size: 1.3em;
+    font-size: 2.0em;
 }
 
 .containerimgtxtaside p
 {
-    font-size: 1.2em;
+    font-size: 1.9em;
     margin-top: -5.48px;
 }
 
 .containerstarsicnaside
 {   
     margin-top: -5.48px;
-    padding-top: 100px;
+    padding-top: 70px;
+}
+
+.containerstarsicnaside2
+{   
+    margin-top: -5.48px;
+    padding-top: 48px;
 }
 
 /* DIVISION ACTIVITY */
@@ -383,7 +394,7 @@
 .titlesection
 {
     font-family: "Ralewaybold";
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 
 .cardactivity
@@ -411,7 +422,7 @@
 
 .titleactivity
 {
-    font-size: 0.9em;
+    font-size: 1.1em;
     margin-left: 10px;
     background-color: white;
 }

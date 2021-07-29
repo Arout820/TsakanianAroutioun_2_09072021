@@ -9,7 +9,7 @@
 
 .logo
 {
-    height: 50%;
+    height: 60%;
     margin-top: 25px;
 }
 
@@ -23,35 +23,26 @@
     display: flex;
     list-style-type: none;
     flex-wrap: wrap;
+    text-align: center;
+    margin-right: 8px;
 }
 
 .listelement
 {
-    width: 9.375rem;
+    width: 200px;
     margin-top: -24px;
-    height: 46px;  
     padding: 40px 0px 0px 0px;
+    font-size: 1.4em;
 }
 
 .listelement:hover
 {   
-    border-top: 2px solid #0065FC; 
-}
-
-.linkmenu1
-{
-    padding-left: 19px;
-}
-
-.linkmenu2
-{
-    padding-left: 42px;
+    border-top: 3px solid #0065FC; 
 }
 
 .linkmenu:hover
 {
     color: #0065FC;
-    
 }
 
 .btnregistration
@@ -59,5 +50,7 @@
     font-family: "Ralewaybold";
     color: #0065FC;
     padding-left: 15px;
-    padding-top: 40px;
+    padding-top: 32px;
+    font-size: 1.4em;
+    margin-top: 0px;
 }
