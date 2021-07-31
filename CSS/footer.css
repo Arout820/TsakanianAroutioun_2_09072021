@@ -51,3 +51,24 @@
 {
     text-decoration: underline;
 }
+
+/* MEDIA 2122 PX */
+
+@media all AND (max-width: 2139px)
+{
+
+.titlefooter
+{
+    font-size: 0.9em;
+}
+
+.elementfooter
+{
+    font-size: 0.9em;
+}
+
+.elementfooter:hover
+{
+    text-decoration: underline;
+}
+}

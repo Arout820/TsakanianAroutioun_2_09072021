@@ -191,46 +191,47 @@
 
 .cardhotel:hover
 {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .imgcontent 
 { 
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
-    height: 155px;
+    height: 165px;
 }
 
 .containerimgtxt
 {
     margin-left: 5px;
-    font-size: 60%;
 }
 
 .containerimgtxt h2
 {
-    font-size: 2em;
+    font-size: 1.1em;
 }
 
 .containerimgtxt p
 {
-    font-size: 1.9em;
-    margin-top: -5.48px;
+    font-size: 1em;
+    margin-top: -10px;
 }
 
 .containerstarsicn
 {   
-    margin-top: -5.48px;
+    margin-top: -10px;
 }
 
 .icnblue
 {
     color: #0065FC;
+    font-size: 0.9em;
 }
 
 .icngray
 {
     color: #cecece;
+    font-size: 0.9em;
 }
 
 .linkmore
@@ -284,21 +285,21 @@
     border: 5px solid white;
     box-shadow: 0px 0px 10px rgb(197, 196, 196);
     height: 172.5px;
-    width: 500px;
+    width: 450px;
     margin: auto;
     margin-bottom: 15px;
 }
 
 .cardhotelaside:hover
 {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .imgcontentaside
 { 
     object-fit: cover;
     border-radius: 15px 0px 0px 15px;
-    width: 240px;
+    width: 220px;
 }
 
 .containerimgtxtaside
@@ -307,31 +308,29 @@
     flex-direction: column;
     justify-content: flex-start;
     margin-left: 5px;
-    font-size: 60%;
     padding-left: 10px;
 }
 
 .containerimgtxtaside h2
 {
-    font-size: 2.0em;
+    font-size: 1.1em;
+    width: 80%;
 }
 
 .containerimgtxtaside p
 {
-    font-size: 1.9em;
+    font-size: 1em;
     margin-top: -5.48px;
 }
 
 .containerstarsicnaside
 {   
-    margin-top: -5.48px;
-    padding-top: 70px;
+    margin-top: 45px; 
 }
 
 .containerstarsicnaside2
 {   
-    margin-top: -5.48px;
-    padding-top: 48px;
+    margin-top: 20px;
 }
 
 /* DIVISION ACTIVITY */
@@ -425,4 +424,171 @@
     font-size: 1.1em;
     margin-left: 10px;
     background-color: white;
+}
+
+/* MEDIA 2122 PX */
+
+@media all AND (max-width: 2139px)
+{   
+    /* -------- MAIN SITE CONTENT -------- */
+
+/* Title page */
+
+.titlepage
+{
+    font-size: 1.2em;
+}
+
+.titledescription
+{
+    font-size: 0.9em;
+}
+
+/* Button destination */
+
+.input
+{
+    margin-right: -40px;
+    font-size: 0.9em;
+}
+
+.btnsearch
+{
+    font-size: 0.9em;
+}
+
+/* Filtres */
+
+.titlefiltres
+{
+
+    font-size: 0.9em;
+    margin-right: 30px;
+}
+
+.btntext
+{ 
+    font-size: 0.9em;
+}
+
+/* Information */
+
+.info
+{
+    display: flex;
+}
+
+.icninfo
+{
+    font-size: 0.7em;
+    padding: 2px 5px 2px 5px;
+}
+
+.txtinfo
+{
+    font-size: 0.8em;
+}
+
+/* Accomodations Marseille */
+
+.titleaccomodations
+{
+    font-size: 1.1em;
+}
+
+.cardhotel
+{
+    width: 264px;
+    height: 204px;
+}
+
+.imgcontent 
+{ 
+    height: 137px;
+}
+
+.containerimgtxt h2
+{
+    font-size: 0.9em;
+}
+
+.containerimgtxt p
+{
+    font-size: 0.8em;
+    margin-top: -7.48px;
+}
+
+.containerstarsicn
+{   
+    margin-top: -12.48px;
+}
+
+.icnblue
+{
+    font-size: 0.7em;
+}
+
+.icngray
+{
+    font-size: 0.7em;
+}
+
+.linkmore
+{
+    font-size: 1.1em;
+    width: 100%;
+}
+
+/* Most Popular */
+
+.titleaccomodationsaside
+{
+    font-size: 1.1em;
+}
+
+.fa-chart-line
+{
+    font-size: 1.3em;
+}
+
+.cardhotelaside
+{
+    height: 138px;
+    width: 340px;
+}
+
+.imgcontentaside
+{ 
+    width: 150px;
+}
+
+.containerimgtxtaside h2
+{
+    width: 80%;
+    font-size: 0.9em;
+}
+
+.containerimgtxtaside p
+{
+    font-size: 0.8em;
+    margin-top: -5.48px;
+}
+
+.containerstarsicnaside
+{   
+    margin-top: 38px;
+}
+
+/* DIVISION ACTIVITY */
+
+.titlesection
+{
+    font-size: 1.1em;
+}
+
+.titleactivity
+{
+    font-size: 0.9em;
+}
+
 }

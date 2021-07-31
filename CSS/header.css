@@ -37,7 +37,7 @@
 
 .listelement:hover
 {   
-    border-top: 3px solid #0065FC; 
+    border-top: 2px solid #0065FC; 
 }
 
 .linkmenu:hover
@@ -52,5 +52,43 @@
     padding-left: 15px;
     padding-top: 32px;
     font-size: 1.4em;
-    margin-top: 0px;
+
+}
+
+/* MEDIA 2153 PX */
+
+@media all AND (max-width: 2139px)
+{
+    /* -------- CSS HEADER -------- */
+
+.logo
+{
+    height: 50%;
+}
+
+.listmenu
+{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.listelement
+{
+    width: 150px;
+    margin-top: -24px;
+    padding: 40px 0px 0px 0px;
+    font-size: 1.2em;
+}
+
+.btnregistration
+{
+    font-family: "Ralewaybold";
+    color: #0065FC;
+    padding-left: 15px;
+    padding-top: 32px;
+    font-size: 1.2em;
+}
 }
