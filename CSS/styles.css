@@ -31,3 +31,27 @@ a
     color: black;
 }
 
+@media all AND (max-width: 1095px)
+{
+    header
+    {
+        width: 100%;
+    }
+
+    main
+    {
+        width: 100%;
+    }
+
+    footer
+    {
+        width: 100%;
+    }
+
+    html,body
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+}
+

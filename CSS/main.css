@@ -253,7 +253,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: #F2F2F2;
-    border-radius: 15px 15px 15px 15px ;
+    border-radius: 15px;
     padding: 20px;
 }
 
@@ -426,11 +426,8 @@
     background-color: white;
 }
 
-/* MEDIA 2122 PX */
-
 @media all AND (max-width: 2139px)
 {   
-    /* -------- MAIN SITE CONTENT -------- */
 
 /* Title page */
 
@@ -590,5 +587,228 @@
 {
     font-size: 0.9em;
 }
+}
 
+@media all AND (max-width: 1770px)
+{   
+    /* Accomodations Marseille */
+
+    .cardhotel
+    {
+    width: 197px;
+    height: 177px;
+    }
+
+    .imgcontent 
+    { 
+    height: 110px;
+    }
+}
+
+@media all AND (max-width: 1421px)
+{
+    /* CONTAINER ACCOMODATION HOTEL AND MOST POPULAR */
+    
+    .hotelandpopular
+    {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    /* Most Popular */
+
+    .mostpopular
+    {
+        order: 1;
+        margin-bottom: 20px;
+        flex-direction: row;
+    }
+
+    .containertitleaside
+    {
+        width: 100%;
+    }
+
+    .cardhotelaside
+    {
+        width: 245px;  
+        height: 137px;
+        
+    }
+
+    .imgcontentaside
+    {
+        width: 95px;
+    }
+
+    .containerimgtxtaside h2
+    {
+        width: 90%;
+    }
+    
+    /* Accomodations Marseille */
+
+    .allhotel
+    {
+        order: 2;
+        margin-right: 0px;
+    }
+
+    .cardhotel
+    {
+        width: 250px;
+        height: 177px;
+    }
+
+    .imgcontent 
+    { 
+        height: 110px;
+    }
+}
+
+@media all AND (max-width: 1095px)
+{
+    /* Title page */
+
+    .titlepage
+    {
+        margin-left: 20px;
+    }
+
+    .titledescription
+    {
+        margin-left: 20px;
+    }
+
+    /* Button destination */
+
+    .btndestination
+    {
+        margin-left: 20px;
+    }
+
+    /* Filtres */
+
+    .filtres
+    {
+        margin-left: 20px;
+    }
+
+    /* Information */
+
+    .info
+    {
+        margin-left: 20px;
+    }
+
+    /* Most Popular */
+    
+    .mostpopular
+    {
+        flex-direction: row;
+        border-radius: 0px ;
+    }
+
+    .containertitleaside
+    {
+        width: 100%;
+    }
+
+    .cardhotelaside
+    {
+        width: 100%;
+    }
+
+    .imgcontentaside
+    {
+        width: 150px;
+    }
+
+    .containerimgtxtaside h2
+    {
+        width: 90%;
+    }
+
+    .containerstarsicnaside
+    {   
+        margin-top: 19px; 
+    }
+    
+    /* Accomodations Marseille */
+
+    .allhotel
+    {
+        order: 2;
+        margin-right: 0px;
+        border-radius: 0px;
+        background-color: white;
+    }
+
+    .cardhotel
+    {
+        width: 100%;
+        height: 250px;
+    }
+
+    .imgcontent 
+    { 
+        height: 180px;
+    }
+
+    /* DIVISION ACTIVITY */
+
+    .containercardgrid
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 30px;
+        height: 1500px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .gridchild1
+    {
+        grid-column-start: 1;
+        grid-row: 1;
+    }
+
+    .gridchild2
+    {
+        grid-column-start: 1;
+        grid-row: 2 ;
+        margin-bottom: 0px;
+    }
+
+    .gridchild3
+    {
+        grid-column-start: 1;
+        grid-row: 3;
+        margin-top: 0px;
+    }
+
+    .gridchild4
+    {
+        grid-column-start: 1;
+        grid-row: 4;
+    }
+
+    .gridchild5
+    {
+        grid-column-start: 1;
+        grid-row-start: 5;
+    }
+
+    .gridchild6
+    {
+        grid-column-start: 1;
+        grid-row-start: 6;
+    }
+
+    .titlesection
+    {
+        margin-left: 20px;
+    }
 }

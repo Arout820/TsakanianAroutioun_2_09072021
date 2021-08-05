@@ -57,18 +57,23 @@
 @media all AND (max-width: 2139px)
 {
 
-.titlefooter
-{
-    font-size: 0.9em;
+    .titlefooter
+    {
+        font-size: 0.9em;
+    }
+
+    .elementfooter
+    {
+        font-size: 0.9em;
+    }
+
+    .elementfooter:hover
+    {
+        text-decoration: underline;
+    }
 }
 
-.elementfooter
+@media all AND (max-width: 1095px)
 {
-    font-size: 0.9em;
-}
-
-.elementfooter:hover
-{
-    text-decoration: underline;
-}
+    
 }
