@@ -147,7 +147,25 @@
     .btnregistration
     {
         position: absolute;
-        right: 20px;
+        right: 40px;
         top: 10px;
     }
 }
+
+@media all AND (max-width: 396px)
+{
+    .headerdesktop
+    {
+        width: 396px;
+    }
+
+    .btnregistration
+    {
+        position: absolute;
+        left: 260px;
+        right: 0px;
+        top: 10px;
+    }
+}
+
+
