@@ -53,8 +53,6 @@
     padding-left: 15px;
     padding-top: 32px;
     font-size: 1.4em;
-    border: 1px solid #000;
-
 }
 
 @media all AND (max-width: 2139px)
@@ -130,14 +128,14 @@
         margin: 0px;
         width: 100%;
         margin-top: 122px;
+        padding: 0px;
     }
 
     .listelement
     {
-        margin-top: 0px;
-        padding: 0px 0px 0px 0px;
+        padding: 0px;
         border-bottom: 2px solid #F2F2F2;;
-        width: 49%;
+        width: 50%;
         padding-bottom: 10px;
     }
 
