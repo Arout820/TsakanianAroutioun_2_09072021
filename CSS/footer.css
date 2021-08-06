@@ -73,7 +73,31 @@
     }
 }
 
-@media all AND (max-width: 1095px)
+@media all AND (max-width: 900px)
 {
-    
+    .footer
+    {
+        grid-template-columns: 1fr;
+        grid-template-rows: 3;
+    }
+
+    .containerfooter1
+    {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .containerfooter2
+    {
+        grid-column: 1;
+        grid-row: 2;
+        margin-left: 50px;
+    }
+
+    .containerfooter3
+    {
+        grid-column: 1;
+        grid-row: 3;
+        margin-left: 50px;
+    }
 }

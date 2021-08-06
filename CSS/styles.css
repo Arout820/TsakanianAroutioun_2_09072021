@@ -5,6 +5,12 @@
     font-family: "Raleway";
 }
 
+html,body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
 header
 {
     width: 80%;
@@ -19,7 +25,7 @@ main
 
 footer
 {
-    width: 83%;
+    width: 100%;
     margin: auto;
     margin-bottom: -20px;   
 }
@@ -33,6 +39,12 @@ a
 
 @media all AND (max-width: 1095px)
 {
+    html,body
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+
     header
     {
         width: 100%;
@@ -46,12 +58,6 @@ a
     footer
     {
         width: 100%;
-    }
-
-    html,body
-    {
-        margin: 0px;
-        padding: 0px;
     }
 }
 
