@@ -164,7 +164,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #F2F2F2;
-    border-radius: 15px 15px 15px 15px ;
+    border-radius: 15px;
     padding: 20px;
     padding-bottom: 30px;
     margin-right: 30px;
@@ -186,7 +186,7 @@
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 30px;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 15px;
     background: white;
     border: 5px solid white;
     box-shadow: 0px 0px 10px rgb(197, 196, 196);
@@ -728,18 +728,14 @@
     
     .mostpopular
     {
-        flex-direction: row;
         border-radius: 0px ;
-    }
-
-    .containertitleaside
-    {
-        width: 100%;
+        flex-wrap: nowrap;
+        flex-direction: column;
     }
 
     .cardhotelaside
     {
-        width: 100%;
+        width: 98%;
     }
 
     .imgcontentaside
@@ -754,7 +750,7 @@
 
     .containerstarsicnaside
     {   
-        margin-top: 19px; 
+        margin-top: 37px; 
     }
     
     /* Accomodations Marseille */
@@ -833,5 +829,23 @@
     .titlesection
     {
         margin-left: 20px;
+    }
+}
+
+@media all AND (max-width: 396px)
+{
+    .activity
+    {
+        width: 380px;
+    }
+
+    .mostpopular
+    {
+        width: 356px;
+    }
+
+    .allhotel
+    {
+        width: 340px;
     }
 }
