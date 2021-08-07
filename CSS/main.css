@@ -244,8 +244,6 @@
     font-family: "Ralewaybold";
     font-size: 1.4em;
     width: 100%;
-    text-decoration: none;
-    color: black;
 }
 
 /* Most Popular */
@@ -465,7 +463,6 @@
 {
 
     font-size: 0.9em;
-    margin-right: 30px;
 }
 
 .btntext
@@ -474,11 +471,6 @@
 }
 
 /* Information */
-
-.info
-{
-    display: flex;
-}
 
 .icninfo
 {
@@ -538,7 +530,6 @@
 .linkmore
 {
     font-size: 1.1em;
-    width: 100%;
 }
 
 /* Most Popular */
@@ -566,14 +557,12 @@
 
 .containerimgtxtaside h2
 {
-    width: 80%;
     font-size: 0.9em;
 }
 
 .containerimgtxtaside p
 {
     font-size: 0.8em;
-    margin-top: -5.48px;
 }
 
 .containerstarsicnaside
@@ -617,7 +606,6 @@
     .hotelandpopular
     {
         flex-direction: column;
-        flex-wrap: wrap;
     }
     
     /* Most Popular */
@@ -637,8 +625,6 @@
     .cardhotelaside
     {
         width: 245px;  
-        height: 137px;
-        
     }
 
     .imgcontentaside
@@ -662,12 +648,6 @@
     .cardhotel
     {
         width: 250px;
-        height: 177px;
-    }
-
-    .imgcontent 
-    { 
-        height: 110px;
     }
 }
 
@@ -735,7 +715,7 @@
 
     .cardhotelaside
     {
-        width: 98%;
+        width: 97%;
     }
 
     .imgcontentaside
@@ -748,17 +728,10 @@
         width: 90%;
     }
 
-    .containerstarsicnaside
-    {   
-        margin-top: 37px; 
-    }
-    
     /* Accomodations Marseille */
 
     .allhotel
     {
-        order: 2;
-        margin-right: 0px;
         border-radius: 0px;
         background-color: white;
     }
@@ -778,11 +751,9 @@
 
     .containercardgrid
     {
-        display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 1fr);
         grid-column-gap: 0px;
-        grid-row-gap: 30px;
         height: 1500px;
         width: 90%;
         margin: auto;
@@ -790,7 +761,6 @@
 
     .gridchild1
     {
-        grid-column-start: 1;
         grid-row: 1;
     }
 
@@ -846,6 +816,6 @@
 
     .allhotel
     {
-        width: 340px;
+        width: 356px;
     }
 }

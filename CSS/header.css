@@ -66,17 +66,12 @@
 
     .listmenu
     {
-        display: flex;
-        list-style-type: none;
-        flex-wrap: wrap;
-        text-align: center;
         margin-right: 8px;
     }
 
     .listelement
     {
         width: 150px;
-        margin-top: -24px;
         padding: 40px 0px 0px 0px;
         font-size: 1.2em;
     }
@@ -92,15 +87,12 @@
     .headerdesktop
     {
         flex-direction: column;
-        justify-content: space-between;
         height: 150px;
         padding-top: 0px;
     }
 
     .logo
     {
-        
-        width: 100px;
         margin-left: 20px;        
         align-self: initial;
         position: absolute;
@@ -109,7 +101,6 @@
 
     .menu
     {
-        display: flex;
         justify-content: center;
     }
 
@@ -151,10 +142,8 @@
 
     .btnregistration
     {
-        position: absolute;
         left: 260px;
         right: 0px;
-        top: 10px;
     }
 }
 
