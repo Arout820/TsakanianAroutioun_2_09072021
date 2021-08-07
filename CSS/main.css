@@ -804,11 +804,6 @@
 
 @media all AND (max-width: 396px)
 {
-    .activity
-    {
-        width: 380px;
-    }
-
     .mostpopular
     {
         width: 356px;
@@ -817,5 +812,10 @@
     .allhotel
     {
         width: 356px;
+    }
+
+    .activity
+    {
+        width: 395px;
     }
 }
