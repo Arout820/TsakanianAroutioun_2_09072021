@@ -30,7 +30,6 @@ footer
     margin-bottom: -20px;   
 }
 
-
 a
 {
     text-decoration: none;
@@ -39,12 +38,6 @@ a
 
 @media all AND (max-width: 1095px)
 {
-    html,body
-    {
-        margin: 0px;
-        padding: 0px;
-    }
-
     header
     {
         width: 100%;

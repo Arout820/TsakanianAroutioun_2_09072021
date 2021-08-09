@@ -43,6 +43,11 @@
     font-size: 1.2em;
 }
 
+.input::placeholder
+{
+    color: black;
+}
+
 .btnsearch
 {
     font-family: "Raleway600";
