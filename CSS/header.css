@@ -1,150 +1,124 @@
 /* -------- CSS HEADER -------- */
 
-.headerdesktop
-{
-    display: flex;
-    justify-content: space-between;
-    height: 100px;
-    padding-top: 8px;
+.headerdesktop {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  padding-top: 8px;
 }
 
-.logo
-{
-    height: 60%;
-    align-self: center;
+.logo {
+  height: 60%;
+  align-self: center;
 }
 
-.menu
-{
-    display: flex;
+.menu {
+  display: flex;
 }
 
-.listmenu
-{
-    display: flex;
-    list-style-type: none;
-    flex-wrap: wrap;
-    text-align: center;
+.listmenu {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-right: 8px;
+}
+
+.listelement {
+  width: 200px;
+  margin-top: -24px;
+  padding: 40px 0px 0px 0px;
+  font-size: 1.4em;
+}
+
+.listelement:hover {
+  border-top: 2px solid #0065fc;
+}
+
+.linkmenu:hover {
+  color: #0065fc;
+}
+
+.btnregistration {
+  font-family: 'Ralewaybold', sans-serif;
+  color: #0065fc;
+  padding-left: 15px;
+  padding-top: 32px;
+  font-size: 1.4em;
+}
+
+@media all AND (max-width: 2139px) {
+  /* -------- CSS HEADER -------- */
+
+  .logo {
+    width: 100px;
+  }
+
+  .listmenu {
     margin-right: 8px;
-}
+  }
 
-.listelement
-{
-    width: 200px;
-    margin-top: -24px;
+  .listelement {
+    width: 150px;
     padding: 40px 0px 0px 0px;
-    font-size: 1.4em;
+    font-size: 1.2em;
+  }
+
+  .btnregistration {
+    font-size: 1.2em;
+  }
 }
 
-.listelement:hover
-{   
-    border-top: 2px solid #0065FC; 
+@media all AND (max-width: 1095px) {
+  .headerdesktop {
+    flex-direction: column;
+    height: 150px;
+    padding-top: 0px;
+  }
+
+  .logo {
+    margin-left: 20px;
+    align-self: initial;
+    position: absolute;
+    height: 10%;
+  }
+
+  .menu {
+    justify-content: center;
+  }
+
+  .listmenu {
+    margin: 0px;
+    width: 100%;
+    margin-top: 140px;
+    padding: 0px;
+  }
+
+  .listelement {
+    padding: 0px;
+    border-bottom: 2px solid #f2f2f2;
+    width: 50%;
+    padding-bottom: 10px;
+  }
+
+  .listelement:hover {
+    border-top: none;
+    border-bottom: 2px solid #0065fc;
+  }
+  .btnregistration {
+    position: absolute;
+    right: 40px;
+    top: 10px;
+  }
 }
 
-.linkmenu:hover
-{
-    color: #0065FC;
+@media all AND (max-width: 396px) {
+  .headerdesktop {
+    width: 396px;
+  }
+
+  .btnregistration {
+    left: 260px;
+    right: 0px;
+  }
 }
-
-.btnregistration
-{
-    font-family: "Ralewaybold";
-    color: #0065FC;
-    padding-left: 15px;
-    padding-top: 32px;
-    font-size: 1.4em;
-}
-
-@media all AND (max-width: 2139px)
-{
-    /* -------- CSS HEADER -------- */
-
-    .logo
-    {
-        width: 100px;
-    }
-
-    .listmenu
-    {
-        margin-right: 8px;
-    }
-
-    .listelement
-    {
-        width: 150px;
-        padding: 40px 0px 0px 0px;
-        font-size: 1.2em;
-    }
-
-    .btnregistration
-    {
-        font-size: 1.2em;
-    }
-}
-
-@media all AND (max-width: 1095px)
-{
-    .headerdesktop
-    {
-        flex-direction: column;
-        height: 150px;
-        padding-top: 0px;
-    }
-
-    .logo
-    {
-        margin-left: 20px;        
-        align-self: initial;
-        position: absolute;
-        height: 10%;
-    }
-
-    .menu
-    {
-        justify-content: center;
-    }
-
-    .listmenu
-    {
-        margin: 0px;
-        width: 100%;
-        margin-top: 140px;
-        padding: 0px;
-    }
-
-    .listelement
-    {
-        padding: 0px;
-        border-bottom: 2px solid #F2F2F2;;
-        width: 50%;
-        padding-bottom: 10px;
-    }
-
-    .listelement:hover
-    {   
-        border-top: none; 
-        border-bottom: 2px solid #0065FC;
-    }
-    .btnregistration
-    {
-        position: absolute;
-        right: 40px;
-        top: 10px;
-    }
-}
-
-@media all AND (max-width: 396px)
-{
-    .headerdesktop
-    {
-        width: 396px;
-    }
-
-    .btnregistration
-    {
-        left: 260px;
-        right: 0px;
-    }
-}
-
-
